@@ -20,6 +20,9 @@ body {
 .likar_form {
 	display: none;
 }
+.chat_form {
+	display: none;
+}
 .input {
 	display: flex;
 	flex-direction: column;
