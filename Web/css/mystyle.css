@@ -17,6 +17,9 @@ body {
 	width: 25%;
 	align-items: center;
 }
+.likar_form {
+	display: none;
+}
 .input {
 	display: flex;
 	flex-direction: column;
@@ -26,7 +29,7 @@ body {
 	font-size: 20px;
 	margin-bottom: 5px;
 }
-.input input[type=submit] {
+.input input[type=button] {
 	color: #ff0000;
 	background-color: #00ff00; 
 	border: 0px solid;
