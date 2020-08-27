@@ -10,9 +10,8 @@ if(nomer.val() == "")
 	{alert("Ви не ввели номер телефону")}
 else
 	{
-console.log("Ваш номер: "+nomer.val());
-$(".likar_form").show();
-$(".phone_form").hide();
+//console.log("Ваш номер: "+nomer.val());
+$(".phone_form").fadeOut(() => {$(".likar_form").fadeIn();});
 return false;
 	}
 });
@@ -22,9 +21,9 @@ $("#sendlikar").click(function() {
 likar=$("#likar").val();
 //console.log("Ваш лікар: "+all_likar[likar]);
  
-$(".chat_form").show();
-$(".likar_form").hide();
-$(".info").html("Ваш лікар: <b>"+all_likar[likar]+"</b>");
+$(".likar_form").fadeOut(() => {$(".chat_form").fadeIn();});
+$(".info1").html("Ваш номер: <b>"+nomer.val()+"</b>");
+$(".info2").html("Ваш лікар: <b>"+all_likar[likar]+"</b>");
 
 return false; });
 

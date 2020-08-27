@@ -23,6 +23,17 @@ body {
 .chat_form {
 	display: none;
 }
+.info1 {
+	border: 1px solid;
+	border-radius: 6px;
+	padding: 3px;
+	margin-bottom: 5px;
+}
+.info2 {
+	border: 1px solid;
+	border-radius: 6px;
+	padding: 3px;
+}
 .input {
 	display: flex;
 	flex-direction: column;
@@ -33,8 +44,8 @@ body {
 	margin-bottom: 5px;
 }
 .input input[type=button] {
-	color: #ff0000;
-	background-color: #00ff00; 
+    color: #eaff39;
+    background-color: #005fff;
 	border: 0px solid;
 	height: 30px;
 	font-size: 14px;
