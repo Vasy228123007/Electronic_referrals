@@ -4,26 +4,39 @@
 	<title>Перевірка системи</title>
 </head>
 <body>
-<script type="js/javascript">
-</script>
-<form method="post" аction="index2.php">
-<table align="center" cellspacing="2" cellpadding="2" border="0" width="320">
-<tr>
-<td width="100">Імя:</td>
-<td width="200"><input type="text" name="name" /></td>
-</tr>
-<tr>
-<td width="100">Пароль:</td>
-<td width="200"><input type="password" name="pass" /></td>
-</tr>
-<tr>
-<td colspan="2" width="300" align="center">
-<input id="vxod" type="submit" value="Вхід" />
-<input id="sbros" type="reset" value="Скінути" />
-</td>
-</tr>
-</table>
-</form>
+<script type="lib/jquery-3.5.1.min.js"></script>
+<script type="js/text.js"></script>
+
+<link rel="stylesheet" href="css/mystyle.css">
+
+<div class="main">
+	<div class="form">
+		<form>
+			<div class="input">
+			<input type="text" name="nomer" id="nomer" />	
+			</div>
+			<div class="input">
+			<input type="submit" id="send" value="Авторизуватись" />	
+			</div>
+		</form>
+	</div>
+	<div class="form">
+		<form>
+			<div class="input">
+			<select  name="likar" id="likar">
+				<option value="1">Чума Светлана</option>
+				<option value="2">Зубенко Михайло</option>
+				<option value="3">Зуб Степан</option>
+				<option value="4">Голомозий Петро</option>
+				<option value="5">Кортопле Олег</option>
+			</select>
+			</div>
+			<div class="input">
+			<input type="submit" id="send" value="Авторизуватись" />	
+			</div>
+		</form>
+	</div>
+</div>
 
 </body>
 </html>
